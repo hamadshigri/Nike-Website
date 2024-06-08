@@ -194,3 +194,24 @@ header .nav-bar .search-bar input {
     font-family: Nike-font;
 }
 /* Shope all running End */
+
+/* Footer */
+footer {
+    padding: 70px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inner-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.inner-footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.inner-footer ul li {
+   list-style-type: none;
+}
+/* Footer End */
