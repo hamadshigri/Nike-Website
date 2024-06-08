@@ -3,12 +3,26 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Nike-font;
+    src: url(./fonts/helvetica-now-font-family-1717816135-0/helveticanowtext-bold-demo.ttf);
+  }
+@font-face {
+    font-family: Nike-font-bold;
+    src: url(./fonts/helvetica-now-font-family-1717816135-0/helveticanowtext-black-demo.ttf);
+  }
+@font-face {
+    font-family: Nike-font-italic;
+    src: url(./fonts/helvetica-now-font-family-1717816135-0/helveticanowtext-bolditalic-demo.ttf);
+  }
 header .top-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 50px;
     background-color: #f5f5f5;
+    font-family: Nike-font;
+    font-weight: 100;
 }
 header .top-bar-logos {
     width: 20%;
@@ -23,7 +37,7 @@ header .top-bar-logos img:last-child{
     height: 24px;
 }
 header .top-bar-menu{
-    width: 20%;
+    width: 16%;
 }
 header .top-bar-menu ul{
     display: flex;
@@ -42,7 +56,8 @@ header .nav-bar {
     padding: 20px 50px;
 }
 header .nav-bar .menu {
-    width: 40%;
+    width: 33%;
+    font-family: Nike-font;
 }
 header .nav-bar .menu ul {
     display: flex;
@@ -52,3 +67,72 @@ header .nav-bar .menu ul li {
     list-style-type: none;
     font-weight: 500;
 }
+header .nav-bar .search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 16%;
+}
+header .nav-bar .search-bar input { 
+    width: 140px;
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    margin-left: -25px;
+    font-size: 16px;
+    font-family: Nike-font;
+}
+
+/* Header End */
+
+/* Hero Section */
+.nike-main-container .nike-hero-section {
+    width: 100%;
+    height: 550px;
+    background-image: url('./images/nike-just-do-it.jpg');
+    background-size: cover;
+    background-position:center center;
+}
+/* Hero Section End */
+
+/* Nike Pegasus Section */
+.nike-pegasus-sec {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+}
+.nike-pegasus-inner {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nike-pegasus-inner h5 {
+    font-size: 16px;
+    font-family: Nike-font;
+    color: #111111;
+}
+.nike-pegasus-inner h2 {
+    font-weight: 500;
+    font-size: 64px;
+    font-family: Nike-font-bold;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.nike-pegasus-inner p {
+    font-size: 16px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nike-pegasus-inner button {
+    color: #fff;
+    font-size: 16px;
+    background-color: #111111;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+}
+/* Nike Pegasus Section End */
