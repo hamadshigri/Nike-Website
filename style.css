@@ -136,3 +136,61 @@ header .nav-bar .search-bar input {
     border-radius: 50px;
 }
 /* Nike Pegasus Section End */
+
+
+/* Running Section */
+.running-sec {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.running-sec .women-running {
+    background-image: url('./images/women-running.jpeg');
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 20px;
+}
+.running-sec .women-running h4, .men-running h4 {
+    font-size: 24px;
+    color: #fff;
+}
+.running-sec .women-running button, .men-running button {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+}
+.running-sec .men-running {
+    background-image: url('./images/men-running.jpeg');
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 20px;
+}
+
+/* Running Section End */
+
+/* Shop all running */
+.shop-all-running-sec {
+    width: 100%;
+    padding: 70px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.shop-all-running-sec h4 {
+    font-size: 20px;
+    font-family: Nike-font;
+}
+/* Shope all running End */
